@@ -10,8 +10,36 @@
  * @param {string} str - The input string.
  * @returns {boolean} - True if the string is a palindrome, false otherwise.
  */
+
+function isValidCharacter(char) {
+  const regex = /[a-zA-Z0-9]/.test(char);
+  return regex;
+}
+
 function isPalindrome(str) {
-  // your code here
+  str = str.toLowerCase();
+
+  let left = 0;
+  let right = str.length - 1;
+
+  while (left <= right) {
+    while (left < right && !isValidCharacter(str[left])) {
+      left++;
+    }
+
+    while (left < right && !isValidCharacter(str[right])) {
+      right--;
+    }
+
+    if (str[left] !== str[right]) {
+      return false;
+    }
+
+    left++;
+    right--;
+  }
+
+  return true;
 }
 
 module.exports = isPalindrome;

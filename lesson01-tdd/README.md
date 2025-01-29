@@ -4,6 +4,10 @@
 
 Imagine you are asked to build a frying pan. What kind of requirements would you want to include? How would make sure that the pan meets the requirements?
 
+* Some of the requirements would be to build the frying pan with a material that is good for extremely high temperatures. While also not letting that material interfere with the food that will be cooked on it. Make sure that it doesnt 
+
+
+
 ## Lecture Content (20 minutes)
 
 ### What is TDD?

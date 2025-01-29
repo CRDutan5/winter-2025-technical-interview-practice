@@ -1,15 +1,16 @@
 // 1. given a string with three characters, return the second character
+// ANSWER: str[1];
 
 // 2. get the second and third char from a string. the string will always have atleast three characters
-
 // 'cat' => 'at'
 // 'robbed' => 'ob'
+// ANSWER: str.slice(1)
 
 // 3. Given a word with 5 letters, return the second through 5th letter
-
 // function getSecondThroughFifthLetter (word){
 //   return word.slice(1);
 // }
+// ANSWER: str.slice(1)
 
 // 4. given a string and a number called N, return the second through the Nth character
 
